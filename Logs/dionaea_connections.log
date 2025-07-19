@@ -1,0 +1,34 @@
+2025-07-19 09:58:00 Connection from 192.0.2.13:65422 to port 445 (smb)
+2025-07-19 09:58:02 Connection from 192.0.2.13:65423 to port 21 (ftp)
+2025-07-19 09:58:03 Login attempt anonymous/anonymous
+2025-07-19 09:58:05 File upload attempted: /backdoor.zip
+2025-07-19 10:00:12 Connection from 203.0.113.42:54321 to port 445 (smb)
+2025-07-19 10:00:13 Connection from 203.0.113.42:54322 to port 139 (netbios)
+2025-07-19 10:00:15 Malware download detected from http://malicious.example.com/bot.exe (sha256: 73a3f0e4b1c7d2a3a50f4d9e6b8c3f71e)
+2025-07-19 10:00:16 Malware stored in /opt/dionaea/binaries/bot.exe
+2025-07-19 10:01:22 Connection from 192.0.2.45:12345 on port 21 (ftp)
+2025-07-19 10:01:23 Login attempt anonymous/anonymous
+2025-07-19 10:01:25 File upload attempted: ftp://192.0.2.45/backdoor.zip
+2025-07-19 10:02:18 Connection from 198.51.100.33:33211 on port 135 (rpc)
+2025-07-19 10:02:20 Suspicious RPC call detected
+2025-07-19 10:03:44 Connection from 203.0.113.55:44521 to port 445 (smb)
+2025-07-19 10:03:45 Login attempt root/root
+2025-07-19 10:03:47 File upload attempted: /tmp/ransomware.js
+2025-07-19 10:03:49 Malware download detected: http://haxor.net/ransom.exe (sha256: a81cbb9f4e199992f992b81a3f0c3f5a)
+2025-07-19 10:03:50 Malware stored in /opt/dionaea/binaries/ransom.exe
+2025-07-19 10:04:55 Connection from 198.51.100.44:45001 on port 139 (netbios)
+2025-07-19 10:05:01 Connection from 198.51.100.44:45002 on port 445 (smb)
+2025-07-19 10:05:05 File upload attempted: /tmp/backdoor.exe
+2025-07-19 10:05:06 Malware download detected from http://evil.net/backdoor.exe (sha256: b32fa049d18a56f2a0e9c8c7e68bf8ac)
+2025-07-19 10:05:07 Malware stored in /opt/dionaea/binaries/backdoor.exe
+2025-07-19 10:06:10 Connection from 192.0.2.50:50000 to port 445 (smb)
+2025-07-19 10:06:12 Connection from 192.0.2.50:50001 to port 139 (netbios)
+2025-07-19 10:06:14 Login attempt user/password
+2025-07-19 10:06:16 File upload attempted: /tmp/malware.zip
+2025-07-19 10:06:17 Malware download detected: http://malicious.org/malware.zip (sha256: c7a8f4d8b3a7e1f0c0a9d8e3b7f5a3b4)
+2025-07-19 10:06:18 Malware stored in /opt/dionaea/binaries/malware.zip
+2025-07-19 10:07:00 Connection from 203.0.113.88:65000 on port 21 (ftp)
+2025-07-19 10:07:02 Login attempt anonymous/anonymous
+2025-07-19 10:07:05 File upload attempted: /tmp/exploit.sh
+2025-07-19 10:07:07 Malware download detected: http://badguys.com/exploit.sh (sha256: d19f84a9c4b8f6a3e1b4c7a0f1a9e5b2)
+2025-07-19 10:07:09 Malware stored in /opt/dionaea/binaries/exploit.sh

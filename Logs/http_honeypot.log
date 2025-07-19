@@ -1,0 +1,36 @@
+2025-07-19T09:55:10Z GET /index.html 200 Mozilla/5.0
+2025-07-19T09:55:15Z GET /phpmyadmin/index.php 404 Mozilla/5.0
+2025-07-19T09:55:16Z GET /wp-login.php 404 Mozilla/5.0
+2025-07-19T09:55:17Z GET /admin/login.php 404 Mozilla/5.0
+2025-07-19T09:55:18Z POST /admin/login.php username=admin&password=admin
+2025-07-19T09:55:21Z GET /cgi-bin/test.cgi 500 Mozilla/5.0
+2025-07-19T09:55:25Z GET /etc/passwd 403 Mozilla/5.0
+2025-07-19T09:55:28Z GET /.env 403 Mozilla/5.0
+2025-07-19T09:55:30Z GET /config.php 200 Mozilla/5.0
+2025-07-19T09:55:32Z GET /upload.php 200 Mozilla/5.0
+2025-07-19T09:55:34Z POST /upload.php Content-Type: multipart/form-data; filename="shell.php"
+2025-07-19T09:55:35Z GET /shell.php 200 Mozilla/5.0
+2025-07-19T09:55:37Z GET /?cmd=ls 200 Mozilla/5.0
+2025-07-19T09:55:39Z GET /?cmd=cat+/etc/shadow 200 Mozilla/5.0
+
+# 20 more lines of probing attempts
+2025-07-19T09:55:40Z GET /phpinfo.php 200 Mozilla/5.0
+2025-07-19T09:55:41Z GET /admin/ 403 Mozilla/5.0
+2025-07-19T09:55:42Z GET /backup.zip 200 Mozilla/5.0
+2025-07-19T09:55:43Z GET /log.txt 200 Mozilla/5.0
+2025-07-19T09:55:44Z GET /.git/config 404 Mozilla/5.0
+2025-07-19T09:55:45Z GET /db.sql 200 Mozilla/5.0
+2025-07-19T09:55:46Z GET /test.php 500 Mozilla/5.0
+2025-07-19T09:55:47Z GET /config.bak 200 Mozilla/5.0
+2025-07-19T09:55:48Z GET /admin/index.php 403 Mozilla/5.0
+2025-07-19T09:55:49Z GET /console/ 404 Mozilla/5.0
+2025-07-19T09:55:50Z GET /wordpress/wp-config.php 404 Mozilla/5.0
+2025-07-19T09:55:51Z GET /cms/ 200 Mozilla/5.0
+2025-07-19T09:55:52Z GET /test.cgi 500 Mozilla/5.0
+2025-07-19T09:55:53Z GET /shell.jsp 200 Mozilla/5.0
+2025-07-19T09:55:54Z GET /vuln.php 200 Mozilla/5.0
+2025-07-19T09:55:55Z GET /exploit.php 200 Mozilla/5.0
+2025-07-19T09:55:56Z POST /login POST username=admin&password=password
+2025-07-19T09:55:57Z GET /dashboard 302 Mozilla/5.0
+2025-07-19T09:55:58Z GET /404 404 Mozilla/5.0
+2025-07-19T09:55:59Z GET /wp-content/plugins/hello.php 200 Mozilla/5.0

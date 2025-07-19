@@ -1,0 +1,11 @@
+Jul 19 10:05:00 firewall ALERT: Incoming connection blocked from 185.12.34.56 to port 22 (SSH)
+Jul 19 10:05:12 firewall ALERT: Outbound connection to known malware domain: malware-test.com
+Jul 19 10:05:15 firewall ALERT: Incoming port scan detected from 10.0.2.15
+Jul 19 10:05:18 firewall INFO: Allowed connection from 192.168.1.100 to 8.8.8.8:53 (DNS)
+Jul 19 10:05:45 firewall ALERT: Multiple connection attempts from 10.0.2.15 to blocked port 3389
+Jul 19 10:06:10 firewall INFO: Allowed outbound connection from 192.168.1.101 to 142.250.64.78:443
+Jul 19 10:06:30 firewall ALERT: Brute-force login attempt detected from 192.168.1.99
+Jul 19 10:06:35 firewall ALERT: Denied outbound connection to 45.67.89.101:6667 (IRC)
+Jul 19 10:06:45 firewall INFO: Allowed connection from 192.168.1.102 to 192.168.1.1:80
+Jul 19 10:07:00 firewall ALERT: Port sweep detected from 10.0.2.4
+Jul 19 10:07:22 firewall ALERT: Malware signature match on outbound traffic to 203.0.113.90

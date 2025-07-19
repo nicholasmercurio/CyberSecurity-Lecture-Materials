@@ -1,0 +1,23 @@
+2025-07-19T10:09:20Z ACCESS: Token accessed from IP 198.51.100.88 (PDF document token)
+2025-07-19T10:09:21Z USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+2025-07-19T10:09:22Z TOKEN TYPE: AWS key token triggered
+2025-07-19T10:09:25Z ACTION: Alert email sent to incident response team
+2025-07-19T10:09:40Z ACCESS: Token accessed from IP 198.51.100.89 (Excel spreadsheet token)
+2025-07-19T10:09:41Z USER-AGENT: Microsoft Office/16.0 (Windows NT 10.0; Win64; x64)
+2025-07-19T10:09:42Z TOKEN TYPE: Dropbox token triggered
+2025-07-19T10:09:45Z ACTION: Alert email sent to incident response team
+2025-07-19T10:10:00Z ACCESS: Token accessed from IP 185.99.101.33 (AWS credential token)
+2025-07-19T10:10:01Z USER-AGENT: aws-cli/2.7
+2025-07-19T10:10:02Z ACTION: Programmatic access detected — keys revoked
+2025-07-19T10:10:15Z ACCESS: Token accessed from IP 203.0.113.44 (Slack webhook token)
+2025-07-19T10:10:16Z USER-AGENT: curl/7.68.0
+2025-07-19T10:10:17Z ACTION: Alert email sent to incident response team
+2025-07-19T10:10:30Z ACCESS: Token accessed from IP 192.0.2.22 (GitHub personal access token)
+2025-07-19T10:10:31Z USER-AGENT: GitHub-Hookshot/9b9bb8
+2025-07-19T10:10:32Z ACTION: Alert email sent to incident response team
+2025-07-19T10:10:45Z ACCESS: Token accessed from IP 198.51.100.100 (VPN token)
+2025-07-19T10:10:46Z USER-AGENT: OpenVPN/2.5.3
+2025-07-19T10:10:47Z ACTION: Alert email sent to incident response team
+2025-07-19T10:11:00Z ACCESS: Token accessed from IP 185.99.101.55 (GCP service account token)
+2025-07-19T10:11:01Z USER-AGENT: google-cloud-sdk/320.0.0
+2025-07-19T10:11:02Z ACTION: Alert email sent to incident response team

@@ -1,0 +1,17 @@
+Jul 19 10:00:01 studentVM CRON[1102]: (root) CMD (/usr/bin/apt update)
+Jul 19 10:01:22 studentVM systemd[1]: Starting Clean PHP session files...
+Jul 19 10:01:22 studentVM systemd[1]: Started Clean PHP session files.
+Jul 19 10:02:01 studentVM systemd[1]: Starting Daily apt upgrade and clean activities...
+Jul 19 10:02:02 studentVM systemd[1]: apt-daily-upgrade.service: Succeeded.
+Jul 19 10:02:02 studentVM systemd[1]: Finished Daily apt upgrade and clean activities.
+Jul 19 10:03:10 studentVM kernel: [    3.432001] USB device connected: Logitech Webcam
+Jul 19 10:04:01 studentVM NetworkManager[888]: eth0: acquired IP address 192.168.1.100/24
+Jul 19 10:04:05 studentVM systemd-logind[811]: New session 3 of user student.
+Jul 19 10:04:06 studentVM systemd[1]: Started User Manager for UID 1000.
+Jul 19 10:05:10 studentVM kernel: [ 150.332001] USB device disconnected: Logitech Webcam
+Jul 19 10:06:00 studentVM systemd[1]: Started CUPS Scheduler.
+Jul 19 10:07:20 studentVM systemd[1]: Stopped CUPS Scheduler.
+Jul 19 10:08:00 studentVM kernel: [ 300.432001] Suspicious network connection to 203.0.113.55:443
+Jul 19 10:09:30 studentVM systemd[1]: Starting Cleanup of Temporary Directories...
+Jul 19 10:09:31 studentVM systemd[1]: Finished Cleanup of Temporary Directories.
+Jul 19 10:10:05 studentVM NetworkManager[888]: wlan0: disconnected from 192.168.1.1
