@@ -12,8 +12,6 @@
 2025-07-19T09:55:35Z GET /shell.php 200 Mozilla/5.0
 2025-07-19T09:55:37Z GET /?cmd=ls 200 Mozilla/5.0
 2025-07-19T09:55:39Z GET /?cmd=cat+/etc/shadow 200 Mozilla/5.0
-
-# 20 more lines of probing attempts
 2025-07-19T09:55:40Z GET /phpinfo.php 200 Mozilla/5.0
 2025-07-19T09:55:41Z GET /admin/ 403 Mozilla/5.0
 2025-07-19T09:55:42Z GET /backup.zip 200 Mozilla/5.0

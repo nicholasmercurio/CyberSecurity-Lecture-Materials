@@ -21,8 +21,6 @@
 2025-07-19T09:52:55+0000 [SSHChannel] command input: ./malware.sh
 2025-07-19T09:52:57+0000 [SSHChannel] command input: exit
 2025-07-19T09:53:00+0000 [CowrieSSHFactory] session closed
-
-# 20+ more login attempts for brute force detection
 2025-07-19T10:00:00+0000 [CowrieSSHFactory] login attempt [user: admin, password: qwerty]
 2025-07-19T10:00:01+0000 [SSHChannel] login failed [admin/qwerty]
 2025-07-19T10:00:03+0000 [CowrieSSHFactory] login attempt [user: admin, password: admin1]
